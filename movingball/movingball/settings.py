@@ -140,5 +140,5 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 LOGIN_URL = 'balltracking/login'
-LOGIN_REDIRECT_URL = 'balltracking/abc'
+LOGIN_REDIRECT_URL = 'balltracking/ball_movement'
 LOGOUT_REDIRECT_URL = 'balltracking/login'

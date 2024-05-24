@@ -49,7 +49,7 @@ class CustomLoginView(LoginView):
     redirect_authenticated_user = True
 
     def get_success_url(self):
-        return self.get_redirect_url() or '/balltracking/abc/'
+        return self.get_redirect_url() or '/balltracking/ball_movement/'
 
 
 
